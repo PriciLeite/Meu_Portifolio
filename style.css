@@ -1,0 +1,38 @@
+body {
+    background-color: #351152;
+    color: white;
+}
+
+strong {
+    color: #FF508F;
+}
+
+span {
+    color: #FF508F;
+    border: 1px solid #c57f99;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    /* Cor do texto dos links */
+    text-decoration: none;
+    /* Remove sublinhado dos links */
+    padding: 5px 10px;
+    /* Espaçamento interno dos links */
+    border: 2px solid #FF508F;
+    /* Borda inicialmente transparente */
+    border-radius: 4px;
+    /* Borda arredondada */
+    background-color: #FF508F;
+    /* Cor de fundo */
+    transition: background-color 0.3s, border-color 0.3s;
+    /* Transição suave de cores */
+}
+
+a:hover {
+    background-color: #333;
+    /* Cor de fundo ao passar o mouse sobre os links */
+    border-color: #333;
+    /* Cor da borda ao passar o mouse */
+}
