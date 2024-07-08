@@ -14,7 +14,7 @@ body {
 }
 
 .apresentacao-principal {
-    margin: 3%;
+    margin: 10% 15px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -22,14 +22,14 @@ body {
 
 .apresentacao__conteudo {
     width: 615px;
-    height: 482px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .apresentacao__conteudo__titulo {
     font-size: 36px;
     font-family: "Krona One", sans-serif;
-    width: 593px;
-    height: 168px;
 
 }
 
@@ -63,8 +63,6 @@ body {
     transform: scale(1.1);
     background-color: #23bcb4;
     color: black;
-
-
 }
 
 .apresentacao__links {
@@ -73,18 +71,13 @@ body {
     justify-content: space-between;
 }
 
-
-/* Transição suave de cores */
-
-
-
 .apresentacao__links__link {
     background-color: #FF508F;
     color: #054d49;
     /* Alternancia de cor de fundo */
     transition: background-color 0.3s, border-color 0.3s;
     /* Dimenssões externas sendo: primeiro 0%: Vertical e segungo 0%: Horizontal*/
-    margin-top: 5%;
+
     padding: 20px 0px;
     /*Dimenssões internas */
     width: 280px;
@@ -100,6 +93,7 @@ body {
     /* Formatação bordas internas + externas */
     border-radius: 16px;
     border: 2px solid #da2c6c;
+    border-style: outset;
 
 
 }
@@ -108,7 +102,6 @@ body {
     /* Cor de fundo ao passar o mouse sobre os links + Cor da borda ao passar o mouse  */
     background-color: #333;
     border-color: #333;
-
 }
 
 .apresentacao__links__link__email {
@@ -133,6 +126,7 @@ body {
     /* Formatação bordas internas + externas */
     border-radius: 16px;
     border: 2px solid #da2c6c;
+    border-style: outset;
     /* Centralizar */
     display: flex;
     justify-content: center;
