@@ -24,7 +24,7 @@ body {
     width: 615px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -45,10 +45,9 @@ body {
 
 .apresentacao__conteudo__texto {
     color: white;
-    font-size: 17px;
+    font-size: 24px;
     font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
+
 }
 
 .linguagem-destaque {
@@ -69,19 +68,18 @@ body {
     /*Localização dos botões dentro do contêiner div*/
     display: flex;
     justify-content: space-between;
+    gap: 32px;
 }
 
 .apresentacao__links__link {
-    background-color: #FF508F;
-    color: #054d49;
     /* Alternancia de cor de fundo */
     transition: background-color 0.3s, border-color 0.3s;
+    /* background-color: #FF508F; */
+    color: #117a75;
     /* Dimenssões externas sendo: primeiro 0%: Vertical e segungo 0%: Horizontal*/
-
     padding: 20px 0px;
     /*Dimenssões internas */
     width: 280px;
-    height: 20px;
     /* formatação do texto + Remove sublinhado dos links */
     text-align: center;
     text-decoration: none;
@@ -89,12 +87,10 @@ body {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: px;
     /* Formatação bordas internas + externas */
     border-radius: 16px;
     border: 2px solid #da2c6c;
     border-style: outset;
-
 
 }
 
@@ -105,16 +101,18 @@ body {
 }
 
 .apresentacao__links__link__email {
-    background-color: #FF508F;
-    color: #054d49;
-    /* Alternancia de cor de fundo */
+    /* Centralizar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     transition: background-color 0.3s, border-color 0.3s;
+    /* background-color: #FF508F; */
+    color: #117a75;
     /* Dimenssões externas sendo: primeiro 0%: Vertical e segungo 0%: Horizontal*/
-    margin-top: 5%;
     padding: 20px 168px;
     /*Dimenssões internas */
     width: 280px;
-    height: 20px;
     /* formatação do texto + Remove sublinhado dos links */
     text-align: center;
     text-decoration: none;
@@ -122,24 +120,14 @@ body {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: px;
     /* Formatação bordas internas + externas */
     border-radius: 16px;
     border: 2px solid #da2c6c;
     border-style: outset;
-    /* Centralizar */
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .apresentacao__links__link__email:hover {
     /* Cor de fundo ao passar o mouse sobre os links + Cor da borda ao passar o mouse  */
     background-color: #333;
     border-color: #333;
-}
-
-.img {
-    width: 488px;
-    height: 570px;
 }
