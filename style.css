@@ -2,18 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    box-sizing: border-box;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: #180725;
     color: rgb(231, 217, 224);
 }
 
 .apresentacao-principal {
+    flex: 1;
     margin: 10% 15px;
     display: flex;
     align-items: center;
@@ -111,13 +112,12 @@ body {
     justify-content: center;
     align-items: center;
     gap: 7px;
-
     transition: background-color 0.3s, border-color 0.3s;
     /* background-color: #FF508F; */
     color: #117a75;
     /* Dimenssões externas sendo: primeiro 0%: Vertical e segungo 0%: Horizontal*/
     padding: 20px 168px;
-    /*Dimenssões internas */
+    /*Dimenssões externas */
     width: 280px;
     /* formatação do texto + Remove sublinhado dos links */
     text-align: center;
@@ -136,4 +136,13 @@ body {
     /* Cor de fundo ao passar o mouse sobre os links + Cor da borda ao passar o mouse  */
     background-color: #333;
     border-color: #333;
+}
+
+.rodape {
+    background-color: #da2c6c;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 12px;
 }
