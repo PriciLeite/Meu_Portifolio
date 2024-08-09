@@ -72,6 +72,11 @@ body {
 }
 
 .apresentacao__links__link {
+    /* Alinhando icons*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
     /* Alternancia de cor de fundo */
     transition: background-color 0.3s, border-color 0.3s;
     /* background-color: #FF508F; */
@@ -105,6 +110,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 7px;
 
     transition: background-color 0.3s, border-color 0.3s;
     /* background-color: #FF508F; */
