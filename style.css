@@ -15,10 +15,10 @@ body {
 
 .apresentacao-principal {
     flex: 1;
-    margin: 10% 15px;
+    padding: 10% 15%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .apresentacao__conteudo {
@@ -144,5 +144,7 @@ body {
     padding: 10px;
     text-align: center;
     font-family: 'Monteserrat', sans-serif;
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 600;
+
 }
