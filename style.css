@@ -83,9 +83,9 @@ body {
     /* background-color: #FF508F; */
     color: #117a75;
     /* Dimenssões externas sendo: primeiro 0%: Vertical e segungo 0%: Horizontal*/
-    padding: 20px 0px;
-    /*Dimenssões internas */
-    width: 280px;
+    padding: 10px 75px;
+    margin: 0px 8px;
+
     /* formatação do texto + Remove sublinhado dos links */
     text-align: center;
     text-decoration: none;
@@ -116,9 +116,8 @@ body {
     /* background-color: #FF508F; */
     color: #117a75;
     /* Dimenssões externas sendo: primeiro 0%: Vertical e segungo 0%: Horizontal*/
-    padding: 20px 168px;
-    /*Dimenssões externas */
-    width: 280px;
+    padding: 10px 168px;
+
     /* formatação do texto + Remove sublinhado dos links */
     text-align: center;
     text-decoration: none;
