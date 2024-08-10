@@ -13,9 +13,23 @@ body {
     color: rgb(231, 217, 224);
 }
 
+.cabecalho__menu {
+    padding: 2.5% 0 0 15%;
+    display: flex;
+    gap: 5%;
+}
+
+.cabecalho__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+    color: #FF508F;
+}
+
 .apresentacao-principal {
     /* flex: 1; */
-    padding: 10% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
