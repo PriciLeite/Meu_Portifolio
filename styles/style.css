@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* display: flex;
+    flex-direction: column; */
+    background-color: #180725;
+    color: rgb(231, 217, 224);
+
+}
+
+
+.cabecalho__menu {
+    background-color: #101d1da4;
+    padding: 2% 0 0 12%;
+    display: flex;
+    gap: 5%;
+}
+
+.cabecalho__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+    color: #FF508F;
+    text-decoration: none;
+}
+
+.apresentacao-principal {
+    padding: 5% 12%;
+    margin: 3% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+
+.titulo-destaque {
+    color: #FF508F;
+}
+
+.titulo-destaque:hover {
+    font-size: 37px;
+    transform: scale(1.1);
+    border-color: #333;
+}
+
+.apresentacao__conteudo__texto {
+    color: white;
+    font-size: 24px;
+    font-family: "Montserrat Alternates", sans-serif;
+
+    margin: 4% 0;
+}
+
+.linguagem-destaque {
+    color: #23bcb4;
+    font-size: 18px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Interatividade para as liguagens */
+.linguagem-destaque:hover {
+    font-size: 20px;
+    transform: scale(1.1);
+    background-color: #23bcb4;
+    color: black;
+}
+
+.apresentacao__links {
+    /*Localização dos botões dentro do contêiner div*/
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.apresentacao__links__link {
+    /* Alinhando icons*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    /* Alternancia de cor de fundo */
+    transition: background-color 0.3s, border-color 0.3s;
+    /* background-color: #FF508F; */
+    color: #117a75;
+    /* Dimenssões externas sendo: primeiro 0%: Vertical e segungo 0%: Horizontal*/
+    padding: 10px 75px;
+    margin: 0px 8px;
+
+    /* formatação do texto + Remove sublinhado dos links */
+    text-align: center;
+    text-decoration: none;
+    /* importação de fonte */
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /* Formatação bordas internas + externas */
+    border-radius: 16px;
+    border: 2px solid #da2c6c;
+    border-style: outset;
+
+}
+
+.apresentacao__links__link:hover {
+    /* Cor de fundo ao passar o mouse sobre os links + Cor da borda ao passar o mouse  */
+    background-color: #333;
+    border-color: #333;
+}
+
+.apresentacao__links__link__email {
+    /* Centralizar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    transition: background-color 0.3s, border-color 0.3s;
+    /* background-color: #FF508F; */
+    color: #117a75;
+    /* Dimenssões externas sendo: primeiro 0%: Vertical e segungo 0%: Horizontal*/
+    padding: 10px 168px;
+
+    /* formatação do texto + Remove sublinhado dos links */
+    text-align: center;
+    text-decoration: none;
+    /* importação de fonte */
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /* Formatação bordas internas + externas */
+    border-radius: 16px;
+    border: 2px solid #da2c6c;
+    border-style: outset;
+}
+
+.apresentacao__links__link__email:hover {
+    /* Cor de fundo ao passar o mouse sobre os links + Cor da borda ao passar o mouse  */
+    background-color: #333;
+    border-color: #333;
+}
+
+.rodape {
+    background-color: #da2c6c;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
