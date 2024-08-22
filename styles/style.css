@@ -16,10 +16,11 @@ body {
 
 
 .cabecalho__menu {
-    background-color: #101d1da4;
-    padding: 2% 0 0 12%;
+    background-color: #1b0927;
+    padding: 1% 1% 1% 12%;
+    margin: 0% 0 2% 0;
     display: flex;
-    gap: 5%;
+    gap: 6%;
 }
 
 .cabecalho__menu__link {
@@ -157,12 +158,12 @@ body {
 }
 
 .rodape {
-    background-color: #da2c6c;
-    color: white;
+    background-color: #d1bdec;
+    color: rgba(152, 101, 219, 0.671);
     padding: 10px;
     text-align: center;
     font-family: 'Monteserrat', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
 }
 
