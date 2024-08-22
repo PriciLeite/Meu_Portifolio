@@ -11,10 +11,13 @@ body {
     flex-direction: column; */
     background-color: #180725;
     color: rgb(231, 217, 224);
+
 }
 
+
+
 .cabecalho__menu {
-    padding: 2.5% 0 0 12%;
+    padding: 3% 0 0 12%;
     display: flex;
     gap: 5%;
 }
@@ -28,19 +31,19 @@ body {
 }
 
 .apresentacao-principal {
-    /* flex: 1; */
-    padding: 7% 12%;
+    padding: 4% 12%;
+    margin: 3% 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 7%;
+    gap: 5%;
 }
 
 .apresentacao__conteudo {
     width: 615px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 20px
 }
 
 .apresentacao__conteudo__titulo {
@@ -63,6 +66,7 @@ body {
     font-size: 24px;
     font-family: "Montserrat Alternates", sans-serif;
 
+    margin: 4% 0;
 }
 
 .linguagem-destaque {
